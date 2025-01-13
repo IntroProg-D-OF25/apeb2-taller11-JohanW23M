@@ -4,8 +4,14 @@ import java.util.Scanner;
 
 
 /**
- *
- * @author UTPL
+ *Problema 03
+Generar una función que tenga 4 parámetros de tipo decimal y devuelva
+* el promedio cualitativo de los parámetros. Si el promedio es: De 0 a 
+* 5 el promedio cualitativo es Regular De 5.1 a 8 el promedio es Bueno
+* De 8.1 a 9 el promedio es Muy Bueno De 9.1 a 10 el promedio es Sobresaliente.
+* A la función se la debe llamar desde un método principal. Los parámetros 
+* necesarios para llamar a la función, deben ser ingresados solicitados al usuario.
+ * @author Johan Wang
  */
 public class Problema03 {
 
@@ -39,3 +45,17 @@ public class Problema03 {
         return notaCuantitativa;
     }
 }
+/**
+ * debug:
+Ingrese La primera nota:
+10
+Ingrese La segunda nota:
+1
+Ingrese La tercera nota:
+5
+Ingrese La cuarta nota:
+9
+La nota cuantitativa es: Bueno
+BUILD SUCCESSFUL (total time: 15 seconds)
+
+ */
